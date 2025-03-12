@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.counter {
+margin: 30px 30px ;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.sfondo {
+    background-color: beige ;
+    width: 100%;
+}
+
+ h1, p {
+display: flex;
+justify-content: center;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 60px;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    font-size: 180px;
+    margin-bottom: 60px;
+    color: black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(242, 223, 146);
+
+   
+}
+
+button {
+    background-color: rgb(242, 223, 146);
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 200px;
+    font-size: 50px;
+    margin-right: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 80px;
+    
+}
+
+.button {
+
+  display: flex;
+  justify-content: center;
+ 
+  
+ 
+}
+
