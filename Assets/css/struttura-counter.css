@@ -6,62 +6,58 @@
     flex-direction: column;
     }
     
-    .sfondo {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: rgb(255, 255, 255);
-      width: 100%;
+.sfondo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
     }
     
-     h1, p {
+h1, p {
     display: flex;
     justify-content: center;
     }
     
-    h1 {
-        font-size: 60px;
-        margin-bottom: 60px;
-        color: rgb(0, 0, 0);
+h1 {
+    font-size: 60px;
+    margin-bottom: 60px;
+    color: rgb(0, 0, 0);
     }
     
-    p {
-        font-size: 180px;
-        margin-bottom: 10px;
-        color: black;
+p {
+    font-size: 180px;
+    margin-bottom: 10px;
+    color: black;
     }
     
-    .button-2 {
-display: flex;
-align-self: center;
-
-
-
-
-
+.button-2 {
+    display: flex;
+    align-self: center;
     }
-    .button1 {
-        background-color: rgb(242, 220, 130);
-        color: black;
-        padding: 30px;
-        border: none;
-        margin-bottom: 30px;
-        font-size: 40px;
-        width: 100px;
-        border-radius: 150px;
+
+.button1 {
+    background-color: rgb(242, 220, 130);
+    color: black;
+    padding: 30px;
+    border: none;
+    margin-bottom: 30px;
+    font-size: 40px;
+    width: 100px;
+    border-radius: 150px;
     }
     
     
-    .button2 {
-        background-color: rgb(242, 220, 130);
-        color: black;
-        padding: 30px;
-        border: none;
-        margin-bottom: 30px;
-       margin-left: 20px;
-        font-size: 40px;
-        width: 100px;
-        border-radius: 150px;
+.button2 {
+    background-color: rgb(242, 220, 130);
+    color: black;
+    padding: 30px;
+    border: none;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    font-size: 40px;
+    width: 100px;
+    border-radius: 150px;
     }
 
 .button3 {
@@ -69,7 +65,7 @@ align-self: center;
     color: black;
     border: none;
     margin-bottom: 30px;
-   margin-left: 20px;
+    margin-left: 20px;
     font-size:15px;
     border-radius: 50px;
     width: 100px;
@@ -79,9 +75,8 @@ align-self: center;
 
 .resetta{
    margin-top: -30px;
-    width: 100%;
-    margin-right: 60px;
-    display: flex;
-    justify-content: flex-end;
-       
+   width: 100%;
+   margin-right: 60px;
+   display: flex;
+   justify-content: flex-end;    
 }

@@ -7,10 +7,10 @@
 
 body{
     height: auto;
-     display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background-color: rgb(242, 220, 130);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(242, 220, 130);
 }
 
