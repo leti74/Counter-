@@ -15,6 +15,12 @@ decrementa.addEventListener('click', () => {
   counter.innerHTML = calculation;
 })
 
+const bottoneTema = document.querySelector('.js-cambio-tema')
+ const body = document.body
+  
+ bottoneTema.addEventListener('click', () => {
+  body.classList.toggle('tema-scuro')
+ })
 
 
 
