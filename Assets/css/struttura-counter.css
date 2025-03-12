@@ -22,14 +22,13 @@ h1, p {
     }
     
 h1 {
-    font-size: 50px;
-    margin-bottom: 60px;
+    font-size: 30px;
+    margin-bottom: 10px;
     color: rgb(0, 0, 0);
     }
     
 p {
     font-size: 140px;
-    margin-bottom: 10px;
     color: black;
     }
     
@@ -71,6 +70,7 @@ p {
     width: 100px;
     padding: 10px;
     margin-right: 40px;
+    font-family: "Poppins", sans-serif;
 }
 
 .resetta{
@@ -84,6 +84,7 @@ p {
     .button3{
         margin-top: 20px;
         margin-right: 0;
+        
     }
 
     .resetta{
