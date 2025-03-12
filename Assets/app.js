@@ -15,6 +15,13 @@ decrementa.addEventListener('click', () => {
   counter.innerHTML = calculation;
 })
 
+const resetta = document.querySelector('.js-resetta')
+resetta.addEventListener('click', () => {
+  calculation = 0;
+  counter.innerHTML = calculation;
+})
+
+
 const bottoneTema = document.querySelector('.js-cambio-tema')
  const body = document.body
   

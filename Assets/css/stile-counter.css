@@ -31,7 +31,15 @@
         color: black;
     }
     
-       
+    .button-2 {
+display: flex;
+align-self: center;
+
+
+
+
+
+    }
     .button1 {
         background-color: rgb(242, 220, 130);
         color: black;
@@ -55,4 +63,25 @@
         width: 100px;
         border-radius: 150px;
     }
-    
+
+.button3 {
+    background-color: rgb(242, 220, 130);
+    color: black;
+    border: none;
+    margin-bottom: 30px;
+   margin-left: 20px;
+    font-size:15px;
+    border-radius: 50px;
+    width: 100px;
+    height: auto;
+    padding: 10px;
+}
+
+.resetta{
+   margin-top: -30px;
+    width: 100%;
+    margin-right: 60px;
+    display: flex;
+    justify-content: flex-end;
+       
+}
