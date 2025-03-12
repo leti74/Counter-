@@ -1,15 +1,15 @@
 .tema{
-    width: 100%;
-    margin-left: 60px;
+    
      }
 
-    .tema-button {
+.tema-button {
     background-color: #333333;
     color: #ffffff;
     padding: 9px;
     border-radius: 100px;
     margin-bottom: 20px;
     margin-top: 20px;
+    margin-left: 40px;
     }
 
 .tema-scuro{
