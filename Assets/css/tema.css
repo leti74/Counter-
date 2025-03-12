@@ -11,25 +11,25 @@
     margin-bottom: 10px;
     margin-top: 10px;
     }
+
 .tema-scuro{
     background-color: #252525;
-  color: #ffffff;
+    color: #ffffff;
 }
 
 .tema-scuro button {
     background-color: #333333;
     color: white
-    
 }
+
 .tema-scuro .tema-button{
     background-color: rgb(235, 217, 142);
-        color: black;
+     color: black;
 }
 
 .tema-scuro .sfondo {
     background-color:rgb(116, 116, 116);
 }
-
 
 .tema-scuro .sfondo h1 {
     color: white;
