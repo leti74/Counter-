@@ -36,9 +36,10 @@ ogni clic sui pulsanti modifica il valore e lo visualizza sullo schermo
 ## Come Usare
 
 Clicca sul pulsante + per incrementare il valore.
-
 Clicca sul pulsante - per decrementare il valore.
-
 Usa il pulsante Reset per riportare il valore a zero.
-
 Cambia il tema cliccando sul pulsante Tema.
+
+## Link app
+
+https://leti74.github.io/Counter-/
