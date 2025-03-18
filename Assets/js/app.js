@@ -1,27 +1,4 @@
 
-let calculation = 0;
-const counter = document.querySelector('.js-paragrafo')
-
-const incrementa = document.querySelector('.js-incrementa')
-incrementa.addEventListener('click', () => {
- calculation += 1;
- counter.innerHTML = calculation;
-})
-
-
-const decrementa = document.querySelector('.js-decrementa')
-decrementa.addEventListener('click', () => {
-  calculation -= 1
-  counter.innerHTML = calculation;
-})
-
-const resetta = document.querySelector('.js-resetta')
-resetta.addEventListener('click', () => {
-  calculation = 0;
-  counter.innerHTML = calculation;
-})
-
-
 const bottoneTema = document.querySelector('.js-cambio-tema')
  const body = document.body
   
@@ -29,7 +6,24 @@ const bottoneTema = document.querySelector('.js-cambio-tema')
   body.classList.toggle('tema-scuro')
  })
 
-
+ let calculation = 0;
+ const counter = document.querySelector('.js-paragrafo');
+ 
+ const buttonWrapper = document.querySelector('.sfondo');
+ buttonWrapper.addEventListener('click', (event) => {
+   const button = event.target;
+   
+   if (button.classList.contains('js-incrementa')) {
+     calculation += 1;
+   } else if (button.classList.contains('js-decrementa')) {
+     calculation -= 1;
+   } else if (button.classList.contains('js-resetta')) {
+     calculation = 0;
+   }
+   
+   counter.innerHTML = calculation;
+ });
+ 
 
 
 
